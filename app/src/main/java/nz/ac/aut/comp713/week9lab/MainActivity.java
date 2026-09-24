@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -69,9 +70,7 @@ public class MainActivity extends Activity {
         updateCombinedSummary();
     }
 
-    // ---------------------------------------------------------------
     // Activity 2 and 3: HTTPS GET on a worker thread
-    // ---------------------------------------------------------------
 
     private void loadTask() {
         // Main thread: validate input and show Loading.
@@ -166,9 +165,7 @@ public class MainActivity extends Activity {
         return "Could not reach the service. Check the connection.";
     }
 
-    // ---------------------------------------------------------------
     // Activity 4: runtime permission and one current fix
-    // ---------------------------------------------------------------
 
     private void showLocation() {
         if (checkSelfPermission(
@@ -236,9 +233,7 @@ public class MainActivity extends Activity {
         }
     }
 
-    // ---------------------------------------------------------------
-    // Activity 5: combined summary (unchanged from starter)
-    // ---------------------------------------------------------------
+    // Activity 5: 
 
     private void updateCombinedSummary() {
         if (latestTaskTitle == null || latestLocation == null) {
@@ -260,3 +255,5 @@ public class MainActivity extends Activity {
         super.onDestroy();
     }
 }
+
+ 
