@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Week 9 Lab</string>
+    <string name="screen_title">Task and location client</string>
+    <string name="screen_intro">Complete the activities to load a task over HTTPS and obtain one approximate location fix.</string>
+    <string name="task_id_label">Task ID</string>
+    <string name="task_id_hint">Enter a positive number</string>
+    <string name="load_task">Load task</string>
+    <string name="get_location">Get current location</string>
+    <string name="network_heading">Network result</string>
+    <string name="location_heading">Location result</string>
+    <string name="summary_heading">Combined summary</string>
+    <string name="network_not_implemented">Networking is not implemented yet.</string>
+    <string name="location_not_implemented">Location is not implemented yet.</string>
+    <string name="summary_not_ready">Load a task and obtain a location fix to complete the summary.</string>
+</resources>
+
